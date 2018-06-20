@@ -16,9 +16,9 @@ let broker = new ServiceBroker(
 
 
 broker.createService({
-    name: "math",
+    name: "calc",
     actions: {
-        add(ctx) {
+        sum(ctx) {
             return Number(ctx.params.a) + Number(ctx.params.b);
         }
     }

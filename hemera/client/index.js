@@ -8,8 +8,8 @@ const hemera = new Hemera(nats, {
 hemera.ready(() => {
   hemera.act(
     {
-      topic: 'math',
-      cmd: 'add',
+      topic: 'calc',
+      cmd: 'sum',
       a: 1,
       b: 2
     },

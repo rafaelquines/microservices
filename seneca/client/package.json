@@ -14,6 +14,7 @@
     "ts-node": "^6.1.1"
   },
   "dependencies": {
-    "seneca": "^3.6.0"
+    "seneca": "^3.6.0",
+    "seneca-amqp-transport": "^2.2.0"
   }
 }

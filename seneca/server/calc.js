@@ -13,7 +13,7 @@ module.exports = function calc(options) {
     seneca.add('init:calc', init)
 
     function sum(args, done) {
-        seneca.log.info("sum");
+        seneca.log.info("sum: " + args.a + " + " + args.b);
         done(null, { answer: parseInt(args.a) + parseInt(args.b) });
     }
 

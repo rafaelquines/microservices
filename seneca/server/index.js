@@ -8,8 +8,3 @@ var seneca = require('seneca')()
             pin: 'role:calc,cmd:*',
         }
     );
-
-    // {
-        //     type: 'tcp',
-        //     port: 10101
-        // }
